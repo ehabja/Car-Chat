@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Car Chat</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_firstName">First Name</string>
+    <string name="hint_lastName">Last Name</string>
+    <string name="hint_carNumber">Car Number</string>
+    <string name="hint_password">Password</string>
+    <string name="err_msg_firstName">Enter correct first name</string>
+    <string name="err_msg_lastName">Enter correct last name</string>
+    <string name="err_msg_emptyFirstName">Enter your first name</string>
+    <string name="err_msg_emptyLastName">Enter your last name</string>
+    <string name="err_msg_emptyusername">Enter car number</string>
+    <string name="err_msg_carNumber">This is not a Car Number</string>
+    <string name="err_msg_inUse">Car Number in use</string>
+    <string name="err_msg_password">Enter the password</string>
+    <string name="err_msg_faild">Invalid password</string>
+    <string name="err_msg_failduser">Invalid car number</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_login">Login</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="log_out">Log Out</string>
+    <string name="textview">TextView</string>
+</resources>

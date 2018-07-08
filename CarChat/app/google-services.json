@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "163635087488",
+    "firebase_url": "https://carchat-df978.firebaseio.com",
+    "project_id": "carchat-df978",
+    "storage_bucket": "carchat-df978.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163635087488:android:b220763562debf16",
+        "android_client_info": {
+          "package_name": "com.example.jaber.carchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163635087488-fvk95kbn6pp6rcucitmhsa44eocog19r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jaber.carchat",
+            "certificate_hash": "35f6f9f4118cca6cf07061f11c74d0374ee575be"
+          }
+        },
+        {
+          "client_id": "163635087488-i4qb7u6ctovpgkhagiuuoqpn7egclbbj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jaber.carchat",
+            "certificate_hash": "3d33a8710abe255b1c041a48671ee9f710216425"
+          }
+        },
+        {
+          "client_id": "163635087488-h2j78k152k4v4e5r70imn14rpl1uvj4j.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "163635087488-h2j78k152k4v4e5r70imn14rpl1uvj4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhyLhFGGiQmGXDr2__k9aAK9--9Bkmanc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163635087488-h2j78k152k4v4e5r70imn14rpl1uvj4j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

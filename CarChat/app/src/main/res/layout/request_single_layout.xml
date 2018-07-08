@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp">
+
+    <TextView
+        android:id="@+id/request_single_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/request_single_accBtn"
+        android:layout_alignTop="@+id/request_single_carNumber"
+        android:text="Car Number"
+        android:textColor="?attr/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/request_single_decBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/request_single_accBtn"
+        android:layout_marginEnd="41dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="Decline"
+        android:textColor="@android:color/white" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/request_single_image"
+        android:layout_width="85dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/request_single_carNumber"
+        android:layout_marginStart="17dp"
+        android:src="@drawable/default_avatar" />
+
+    <TextView
+        android:id="@+id/request_single_carNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="48dp"
+        android:layout_marginTop="43dp"
+        android:text="Car Number"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="normal|italic" />
+
+    <Button
+        android:id="@+id/request_single_accBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignBottom="@+id/request_single_image"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="132dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="Accept"
+        android:textColor="@android:color/white" />
+
+
+</RelativeLayout>

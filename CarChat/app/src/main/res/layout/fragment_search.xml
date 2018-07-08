@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Search">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageButton
+            android:id="@+id/btnSearch"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/searchicon"
+            android:scaleType="fitStart"
+            android:src="@drawable/searchicon" />
+
+        <EditText
+            android:id="@+id/txtSearch"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="100dp"
+            android:hint="Search for Drivers"
+            android:maxLength="9"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary" />
+
+
+        <!--<EditText-->
+        <!--//android:id="@+id/txtSearch"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_marginTop="100dp"-->
+        <!--android:layout_marginLeft="100dp"-->
+        <!--android:maxLength="9"-->
+        <!--android:layout_marginRight="100dp"-->
+        <!--android:hint="Search for Drivers"-->
+        <!--android:textAlignment="center"-->
+        <!--android:background="@drawable/rounded_textbox"-->
+        <!--android:textColor="#8d6c75"-->
+        <!--android:textColorHint="#8d6c75"-->
+        <!--android:textStyle="italic"-->
+        <!--/>-->
+
+        <LinearLayout
+            android:id="@+id/layoutSentFriendRequest1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtSearch"
+            android:layout_margin="25dp"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+
+            <TextView
+                android:id="@+id/txtPeople"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Ehab"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:id="@+id/log"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnMessage"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="#fb7d08"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="SEND MESSAGE"
+                    android:textColor="@android:color/white" />
+
+                <!--<Button-->
+                <!--android:layout_width="120dp"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:textColor="#fff"-->
+                <!--android:id="@+id/btnMessage"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/backimgbtn"-->
+                <!--android:text="SEND MESSAGE"/>-->
+
+                <!--<Button-->
+                <!--android:layout_width="120dp"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:textColor="#fff"-->
+                <!--android:id="@+id/btnAddFriend"-->
+                <!--android:background="@drawable/backimgbtn"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="ADD FRIEND"/>-->
+
+                <Button
+                    android:id="@+id/btnAddFriend"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="@android:color/holo_red_dark"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="ADD FRIEND"
+                    android:textColor="@android:color/white" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Messages"-->
+        <!--android:layout_below="@id/layoutSentFriendRequest1"-->
+        <!--android:layout_marginLeft="100dp"-->
+        <!--android:layout_marginRight="100dp"-->
+        <!--android:textAllCaps="true"-->
+        <!--android:textSize="19sp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:textColor="#fff"-->
+        <!--android:background="@drawable/backimgbtn"-->
+        <!--android:id="@+id/btnMessages"/>-->
+
+        <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Friends"-->
+        <!--android:layout_below="@id/btnMessages"-->
+        <!--android:layout_marginLeft="100dp"-->
+        <!--android:layout_marginRight="100dp"-->
+        <!--android:textAllCaps="true"-->
+        <!--android:textSize="19sp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:textColor="#fff"-->
+        <!--android:background="@drawable/backimgbtn"-->
+        <!--android:id="@+id/btnFriends"/>-->
+
+
+    </RelativeLayout>
+
+</FrameLayout>
